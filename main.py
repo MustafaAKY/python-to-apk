@@ -61,7 +61,7 @@ class Siparis_Kaydetme(App):
             self.result_label.text = result_text
             scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/spreadsheets",
                     "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
-            credentials = ServiceAccountCredentials.from_json_keyfile_name("D:/Programlama/Mobil/veri-cekme.json", scope)
+            credentials = ServiceAccountCredentials.from_json_keyfile_name("veri-cekme.json", scope)
 
     # Kimlik doğrulama yap
             gc = gspread.authorize(credentials)
