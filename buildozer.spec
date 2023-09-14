@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = benimuygulamam
+title = My Application
 
 # (str) Package name
-package.name = benimuygulamam
+package.name = myapp
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -13,7 +13,7 @@ package.domain = org.test
 source.dir = .
 
 # (list) Source files to include (let empty to include all the files)
-source.include_exts =py,png,jpg,kv,atlas,json
+source.include_exts = py,png,jpg,kv,atlas,json
 
 # (list) List of inclusions using pattern matching
 #source.include_patterns = assets/*,images/*.png
